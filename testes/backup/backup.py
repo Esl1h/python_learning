@@ -1,12 +1,9 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Nome do arquivo: backup.py
+
 import os
 import time
 import glob
-
-# Mantem apenas 1 arquivo de bkp, removendo o anterior antes de criar
-# devido o diretório estar sendo sincronizado com o dropbox (limitação de espaço)
 
 origem = [' ~/.mozilla',' ~/.thunderbird']
 dir_bkp = '/home/esl1h/Dropbox/LABS/BKP'
