@@ -423,4 +423,8 @@ print (c[0])
 b [3] = 50
 print(b)
 
-
+fruits=[] 
+fruits.append('Apple') 
+fruits.append('Manga') 
+fruits.append('Orange') 
+print(fruits)
