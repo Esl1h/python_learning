@@ -16,7 +16,44 @@ Created on Sun May  8 22:26:07 2016
 
 3 ** 2
 
-25 % 4 (para retornar o resto)
+25 % 4 #(para retornar o resto)
+
+
+
+
+
+# Operadores de atribuição
+x = 9
+y = 3 
+
+x += y # x = x + y
+x -= y # x = x - y
+x *= y # x = x * y
+x /= y # x = x / y
+x %= y # x = x % y
+
+# No Python não existe o ++
+
+a = 2
+b = 4
+
+a, b = b, a
+
+x = 2
+y = 4
+z = 8
+x, y, z = x*2, x+y+z, x*y*z
+print(x)
+print(y)
+print(z)
+
+
+x = 10
+text = "YES" if x == 10 else "NO"
+print(text)
+
+
+
 
 
 
@@ -428,3 +465,7 @@ fruits.append('Apple')
 fruits.append('Manga') 
 fruits.append('Orange') 
 print(fruits)
+
+
+
+
