@@ -469,3 +469,70 @@ print(fruits)
 
 
 
+
+animals = ['man','bear','pig']
+print(animals)
+
+animals.append('cow')
+animals.extend(['duck','dog'])
+
+animals.insert(0,'horse')
+animals.insert(2,'cat')
+
+
+print(animals[1:3])
+
+for i in animals:
+    print(i.upper())
+
+
+import math
+math.sqrt(120)
+
+
+hosts = open('/etc/hosts')
+hosts_file_contents = hosts.read()
+print(hosts_file_contents)
+
+print('Current Position: {}'.format(hosts.tell()))
+print(hosts.read())
+
+hosts.seek(0)
+
+
+print(hosts.read(3))
+print(hosts.tell())
+print(hosts_file_contents)
+
+
+
+hosts.close()
+
+
+a=1
+with open('/etc/hosts') as file:
+    for line in file:
+        print('Linha n.{n}= {l}'.format(n=a, l=line))
+        a+=1
+
+
+with open('/etc/hosts') as file:
+    for line in file:
+        print(line.rstrip())
+
+
+import time
+print(time.asctime())
+print(time.timezone)
+print(time.tzname)
+
+
+
+from time import asctime, sleep
+print(asctime())
+sleep(3)
+
+
+import time
+dir(time)
+
